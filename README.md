@@ -1,7 +1,3 @@
-Here’s a nicely formatted **README** for your Minesweeper game in **Markdown** format:
-
----
-
 # Minesweeper Game - Lightning Web Components (LWC)
 
 A fully functional Minesweeper game built using Lightning Web Components (LWC). The game follows the classic Minesweeper rules with three difficulty levels: Beginner, Intermediate, and Expert. Each game grid is randomly generated, and players must reveal all non-mine cells to win.
