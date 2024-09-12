@@ -54,16 +54,16 @@ A fully functional Minesweeper game built using Lightning Web Components (LWC). 
 ## Screenshots
 
 ### Initial Screen
+![Initial Screen](/screenshots/init-screen.png)
 
-
-### In-Game (Beginner Level)
-
+### In-Game (Intermediate Level)
+![In-Game](/screenshots/game.png)
 
 ### Game Over
-
+![Game Over](/screenshots/game-over.png)
 
 ### Victory Screen
-
+![Victory](/screenshots/victory.png)
 
 ## Technologies Used
 - **Lightning Web Components (LWC)**: For building the UI and game logic.
