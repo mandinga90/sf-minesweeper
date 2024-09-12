@@ -77,3 +77,5 @@ If you'd like to contribute to this project, feel free to create a pull request 
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+Inspired by https://www.geeksforgeeks.org/create-a-minesweeper-game-using-html-css-javascript/ and created with the help of ChatGPT 4o
