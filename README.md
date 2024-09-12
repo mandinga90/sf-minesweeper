@@ -37,13 +37,15 @@ A fully functional Minesweeper game built using Lightning Web Components (LWC). 
 
 2. **Deploy to Salesforce**:
    - Open the Salesforce CLI and authenticate with your org.
-   - Deploy the LWC component to your org using:
-     ```bash
-     sfdx force:source:push
-     ```
+   - Deploy the LWC component to your org by right-clicking on the folder 'minesweeper' in 'lwc' and selecting 'SFDX: Deploy This Source to Org'
 
-3. **Assign the Minesweeper Component** to a Lightning page (App or Record Page):
-   - Go to the **App Builder** in Salesforce and add the `Minesweeper` component to your page.
+3. **Create a new Tab for the Minesweeper Component**:
+   - Go to **Tabs** in Setup
+   - Create a new Lightning Component Tab
+   - Select 'c:minesweeper'
+   - Choose Label, Name, and Style
+   - Save
+   - Look for the component by name in the App Launcher
 
 ## Game Rules
 - **Objective**: Reveal all cells that are not mines.
