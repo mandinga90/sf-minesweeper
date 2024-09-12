@@ -1,0 +1,10 @@
+.header {
+    margin-bottom: 4px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(30, 50px);
+    grid-template-rows: repeat(30, 50px);
+    gap: 2px;
+}

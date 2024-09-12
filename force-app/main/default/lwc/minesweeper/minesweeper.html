@@ -1,0 +1,30 @@
+<template>
+    <div class="header">
+        <template if:false={gameStarted}>
+            <lightning-button label="Beginner" onclick={handleBeginnerGame}></lightning-button>
+            <lightning-button label="Intermediate" onclick={handleIntermediateGame}></lightning-button>
+            <lightning-button label="Advanced" onclick={handleExpertGame}></lightning-button>
+        </template>
+        <template if:true={gameStarted}>
+            <lightning-button label="Restart Game" onclick={handleRestartGame}></lightning-button>
+        </template>
+    </div>
+
+    <template if:true={gameStarted}>
+        <div class="grid">
+            <template for:each={board} for:item="row" for:index="rowIndex">
+                <div key={divRowIndex}>
+                    <template for:each={row} for:item="cell" for:index="colIndex">
+                        <lightning-button
+                            key={cell.index}
+                            data-id={cell.index}
+                            label={cell.display}
+                            onclick={handleClick}
+                            oncontextmenu={handleRightClick}>
+                        </lightning-button>
+                    </template>
+                </div>
+            </template>
+        </div>
+    </template>
+</template>
