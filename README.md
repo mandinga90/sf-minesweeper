@@ -70,7 +70,6 @@ A fully functional Minesweeper game built using Lightning Web Components (LWC). 
 ## Future Enhancements
 - **Timer**: Add a timer to track how fast players can solve the grid.
 - **Leaderboard**: Store high scores based on completion time.
-- **Mobile Enhancements**: Add touch support for mobile and tablet devices.
 
 ## Contributing
 If you'd like to contribute to this project, feel free to create a pull request or submit an issue.
